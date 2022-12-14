@@ -9,13 +9,19 @@
 .main-item:not(:last-child) {
     margin-right: 30px;
 }
+.main-item:hover .main-item-title, .main-item:hover .main-item-num {
+    color: #3751FF;
+} 
+.main-item:hover {
+    border: 1px solid #3751FF;
+}
 .main-item-title {
     font-weight: 700;
     font-size: 19px;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.4px;
-    margin-bottom: 0;
+    margin-bottom: 12px;
     color: #9fa2b4;
 }
 .main-item-num {
