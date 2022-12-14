@@ -1,0 +1,24 @@
+.diogram-ticket-item{
+    padding-top: 20px;
+    padding-bottom: 18px;
+}
+.diogram-ticket-item:not(:last-child){
+    border-bottom: 1px solid #DFE0EB;
+}
+.diogram-tickets-title{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+}
+.diogram-tickets-desc{
+    font-family: "Mulish";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #9fa2b4;
+}
