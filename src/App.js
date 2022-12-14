@@ -1,6 +1,5 @@
 import "./main.css";
 import {
-	Logo,
 	Overview,
 	Tickets,
 	Ideas,
@@ -9,13 +8,11 @@ import {
 	Articles,
 	Settings,
 	Subscription,
-	Search,
-	Notification,
-} from "../src/assets/images/icons/icons";
-import { Items } from "./components/Items/Items";
-import Profil from "../src/assets/images/photo.png";
-import { MainItems } from "./components/MainItem/MainItem";
+} from "../src/assets/images/icons";
+import { MainItems } from "./components/MainItem";
 import { DiogramCard, DiogramChildCardsList } from "./components/DiogramBody";
+import { Nav } from "./components/Nav";
+import { Header } from "./components/Header";
 function App() {
 	const navigation = [
 		{
@@ -81,32 +78,9 @@ function App() {
 	return (
 		<div className='App'>
 			<div className='site-wrapper d-flex'>
-				<div className='navigation'>
-					<div className='d-flex slign-items-center logo-wrapper'>
-						<Logo />
-						<p className='logo-title'>Dashboard Kit</p>
-					</div>
-					<nav>
-						<ul className='list-unstyled site-nav-list'>
-							<Items obg={navigation}></Items>
-						</ul>
-					</nav>
-				</div>
+				<Nav obg={navigation} />
 				<div className='site-overview flex-grow-1'>
-					<div className='overview-inner d-flex justify-content-between'>
-						<h2 className='site-top-title'>Overview</h2>
-						<div className='d-flex align-items-start'>
-							<div className='search-img-wrapper d-flex align-items-center'>
-								<Search />
-								<span className='search-img'></span>
-								<Notification />
-							</div>
-							<div className='d-flex align-items-center'>
-								<p className='mb-0 me-3'>Jones Ferdinand</p>
-								<img src={Profil} alt='' />
-							</div>
-						</div>
-					</div>
+					<Header/>
 					<ul className='list-unstyled d-flex align-items-center justify-content-between'>
 						<MainItems obg={arr} />
 					</ul>

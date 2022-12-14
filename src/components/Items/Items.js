@@ -1,3 +1,4 @@
+import "./item.css";
 export function Items(children) {
 	return children.obg.map((item) => (
 		<li key={item.id} className='d-flex site-nav-item align-items-center'>
