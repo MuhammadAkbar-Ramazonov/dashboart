@@ -1,0 +1,21 @@
+.mx-32{
+    margin: 0 32px;
+}
+.diogram-tickets-color-text{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15.06px;
+    letter-spacing: 0.1px;
+    color: #4b506d;
+}
+.diogram-child-cards-link{
+    font-family: "Mulish";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #3751ff;
+    text-decoration: none;
+}

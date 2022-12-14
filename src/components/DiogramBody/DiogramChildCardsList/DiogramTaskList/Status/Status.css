@@ -1,0 +1,23 @@
+.status{
+    padding: 5px 12px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.status-new{
+    color: #fff;
+    background-color: #29cc97;
+}
+.status-urgent{
+    color: #fff;
+    background-color: #fec400;
+}
+.status-default{
+    color: #9fa2b4;
+    background-color: #f0f1f7;
+}

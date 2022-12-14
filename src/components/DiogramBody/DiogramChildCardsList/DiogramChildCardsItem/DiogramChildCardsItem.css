@@ -1,0 +1,10 @@
+.diogram-child-card{
+    max-width: 546px;
+    width: 100%;
+    padding-top: 32px;
+    padding-bottom: 8px;
+    border: 1px solid #dfe0eb;
+}
+.diogram-child-card:not(:last-child){
+    margin-right: 30px;
+}
