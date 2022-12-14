@@ -15,6 +15,7 @@ import {
 import { Items } from "./components/Items/Items";
 import Profil from "../src/assets/images/photo.png";
 import { MainItems } from "./components/MainItem/MainItem";
+import { DiogramCard, DiogramChildCardsList } from "./components/DiogramBody";
 function App() {
 	const navigation = [
 		{
@@ -109,6 +110,8 @@ function App() {
 					<ul className='list-unstyled d-flex align-items-center justify-content-between'>
 						<MainItems obg={arr} />
 					</ul>
+					<DiogramCard />
+					<DiogramChildCardsList />
 				</div>
 			</div>
 		</div>
