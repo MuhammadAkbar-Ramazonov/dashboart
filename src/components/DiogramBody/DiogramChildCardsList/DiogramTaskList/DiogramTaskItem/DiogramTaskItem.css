@@ -1,45 +1,49 @@
-.diogram-task-item{
-    padding: 17px 0;
+.diogram-task-item {
+	padding: 17px 0;
 }
-.diogram-task-item:not(:last-child){
-    border-top: 1px solid #dfe0eb;
+.diogram-task-item:not(:last-child) {
+	border-top: 1px solid #dfe0eb;
 }
-.diogram-task-input{
-    font-family: "Mulish";
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-    color: #252733;
+.diogram-task-input {
+	font-family: "Mulish";
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+	color: #252733;
 }
-.diogram-task-input::placeholder{
-    font-family: "Mulish";
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-    color: #c5c7cd;
+.diogram-task-input::placeholder {
+	font-family: "Mulish";
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+	color: #c5c7cd;
 }
-.diogram-task-btn{
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    background-color: #f0f1f7;
-    background-image: url("../../.../../../../../assets/images/plus.svg");
-    background-position: center;
-    background-repeat: no-repeat;
+.diogram-task-btn {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background-color: #f0f1f7;
+	background-image: url("../../.../../../../../assets/images/plus.svg");
+	background-position: center;
+	background-repeat: no-repeat;
 }
 /* .diogram-task-checkbox{
 } */
-.diogram-task-checkbox-box{
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-right: 16px;
-    border-radius: 50%;
-    border: 2px solid #C5C7CD;
-    transition:  background-color 0.3s ease;
+.diogram-task-checkbox-box {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 16px;
+	border-radius: 50%;
+	border: 2px solid #c5c7cd;
+	transition: background-color 0.3s ease;
 }
-.diogram-task-checkbox:checked ~ .diogram-task-checkbox-box{
-    background-color: #3751ff;
+.diogram-task-checkbox:checked ~ .diogram-task-checkbox-box {
+	background-color: #3751ff;
+	background-image: url("../../../../../assets/images/check.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 10px 7px;
 }
