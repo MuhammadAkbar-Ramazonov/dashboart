@@ -31,7 +31,7 @@ export const Logo = () => {
 	);
 };
 
-export const Overview = () => {
+export const OverviewImg = () => {
 	return (
 		<div>
 			<svg
@@ -57,7 +57,7 @@ export const Overview = () => {
 	);
 };
 
-export const Tickets = () => {
+export const TicketsImg = () => {
 	return (
 		<div>
 			<svg
@@ -77,7 +77,7 @@ export const Tickets = () => {
 	);
 };
 
-export const Ideas = () => {
+export const IdeasImg = () => {
 	return (
 		<div>
 			<svg
@@ -104,7 +104,7 @@ export const Ideas = () => {
 	);
 };
 
-export const Contacts = () => {
+export const ContactsImg = () => {
 	return (
 		<div>
 			<svg
@@ -124,7 +124,7 @@ export const Contacts = () => {
 	);
 };
 
-export const Agents = () => {
+export const AgentsImg = () => {
 	return (
 		<div>
 			<svg
@@ -144,7 +144,7 @@ export const Agents = () => {
 	);
 };
 
-export const Articles = () => {
+export const ArticlesImg = () => {
 	return (
 		<div>
 			<svg
@@ -164,7 +164,7 @@ export const Articles = () => {
 	);
 };
 
-export const Settings = () => {
+export const SettingsImg = () => {
 	return (
 		<div>
 			<svg
@@ -191,7 +191,7 @@ export const Settings = () => {
 	);
 };
 
-export const Subscription = () => {
+export const SubscriptionImg = () => {
 	return (
 		<div>
 			<svg
@@ -217,7 +217,8 @@ export const Subscription = () => {
 		</div>
 	);
 };
-export const Search = () => {
+
+export const SearchImg = () => {
 	return (
 		<svg
 			width={16}
@@ -244,7 +245,7 @@ export const Search = () => {
 	);
 };
 
-export const Notification = () => {
+export const NotificationImg = () => {
 	return (
 		<svg
 			width={18}

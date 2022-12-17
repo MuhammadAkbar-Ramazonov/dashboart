@@ -432,6 +432,8 @@ body {
 	flex-grow: 1;
 }
 .navigation {
+	position: fixed;
+	height: 100%;
 	max-width: 255px;
 	padding-top: 32px;
 	background-color: #363740;
@@ -456,7 +458,7 @@ body {
 }
 .site-overview {
 	max-width: 1122px;
-	margin-left: 131px;
+	margin-left: 381px;
 }
 
 .overview-inner {
