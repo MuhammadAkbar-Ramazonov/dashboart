@@ -1,0 +1,28 @@
+.tickets-item{
+    padding: 24px 0;
+    border-bottom: 1px solid #dfe0eb;
+}
+.tickets-user-img{
+    margin-right: 24px;
+}
+.tickets-user-title{
+    margin-bottom: 4px;
+    font-family: "Mulish";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;    
+}
+.tickets-user-desc{
+    margin-bottom: 0;
+    font-family: "Mulish";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #c5c7cd;
+}
+.tickets-user-menu-btn{
+    
+}
